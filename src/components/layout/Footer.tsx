@@ -23,7 +23,7 @@ export default function Footer() {
             Instagram
           </a>
           <a
-            href="https://www.youtube.com/@jaredserfozo"
+            href="https://www.youtube.com/lifeontech"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-text-secondary transition-colors hover:text-accent"

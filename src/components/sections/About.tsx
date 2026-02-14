@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import SectionHeading from '@/components/ui/SectionHeading';
-import CounterStat from '@/components/ui/CounterStat';
 
 export default function About() {
   return (
@@ -59,13 +58,7 @@ export default function About() {
           </motion.div>
         </div>
 
-        {/* Stats */}
-        <div className="mt-20 grid grid-cols-2 gap-8 md:grid-cols-4">
-          <CounterStat end={43} suffix="+" label="Projects Completed" />
-          <CounterStat end={5} label="Content Categories" />
-          <CounterStat end={10} suffix="+" label="Years Experience" />
-          <CounterStat end={50} suffix="+" label="Clients Served" />
-        </div>
+
       </div>
     </section>
   );

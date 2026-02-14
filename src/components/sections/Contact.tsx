@@ -144,7 +144,7 @@ export default function Contact() {
           {[
             { label: 'LinkedIn', href: 'https://www.linkedin.com/in/jaredserfozo/' },
             { label: 'Instagram', href: 'https://www.instagram.com/jaredserfozo/' },
-            { label: 'YouTube', href: 'https://www.youtube.com/@jaredserfozo' },
+            { label: 'YouTube', href: 'https://www.youtube.com/lifeontech' },
           ].map((link) => (
             <a
               key={link.label}
